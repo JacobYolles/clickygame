@@ -1,0 +1,75 @@
+ [
+    {   
+        "id": 1,
+        "name": "Modern Family",
+        "title": "Modern Family",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Speechless",
+        "title": "Speechless",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/48/ABC%27s_Speechless_title_card.png"
+    },
+    {
+        "id": 3,
+        "name": "IZombie",
+        "title": "IZombie",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81WcdIRFa9L._RI_SX380_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },  
+    {
+        "id": 11,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Modern Family",
+        "title": "IZombie",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5MjUyYjUtMzhmOC00NTc3LWIzMTctMTVlOTA2NjI2NDU2XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_SY1000_SX675_AL_.jpg"
+    }
+ ]
+ 
