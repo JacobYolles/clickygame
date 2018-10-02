@@ -1,0 +1,42 @@
+nav {
+    width: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    background-color:  rgba(253, 173, 1, 0.788);
+    height: auto;
+    font-family: 'Sanchez', serif, cursive;
+  }
+  
+  a {
+    color: #070000;
+    font-size: 2.6rem;
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px 0;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  ul {
+    padding-left: 0px;
+  }
+
+  .alignLeft{
+    text-align: left;
+    padding-left: 1%;
+  }
+
+  .alignRight{
+    color: black;
+    text-align: right;
+    padding-right: 1%;
+    font-size: 2.2rem;
+  }
