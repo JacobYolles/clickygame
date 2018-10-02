@@ -86,6 +86,7 @@ handleShuffle = () => {
 <Wrapper>
   <Nav
   title="React Show Clicky Game" 
+  h1="Clicky again"
   score={this.state.currentScore}
   topScore={this.state.topScore}
   correctIncorrect={this.state.correctIncorrect}
