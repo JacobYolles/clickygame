@@ -89,7 +89,7 @@ handleShuffle = () => {
   correctIncorrect={this.state.correctIncorrect}
   />
       <Title>
-        Click on an image to earn points, but don't click on one more than once!
+        Click on an image to earn a point, but don't click on any more than once!
       </Title>
       <Container>
         <Row>
