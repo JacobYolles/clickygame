@@ -9,6 +9,8 @@ import Wrapper from "./components/Wrapper";
 import shows from "./shows.json";
 import './App.css';
 
+
+
 // Create my random shuffling of cards.
 function randomShows(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -18,7 +20,7 @@ function randomShows(array) {
   return array;
 };
 
-
+// Create my app overall
 class App extends Component {
 
   // create my apps state
@@ -112,6 +114,6 @@ handleShuffle = () => {
       </Wrapper>
     );
   }
-}
+} // end the state of the app.
 
 export default App;
