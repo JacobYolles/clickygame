@@ -7,7 +7,7 @@ import Row from "./Row";
 import Column from "./Column";
 import Wrapper from "./components/Wrapper";
 import shows from "./shows.json";
-import './App.css';
+
 
 
 

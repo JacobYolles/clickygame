@@ -1,8 +1,7 @@
-
 .title {
     width: 100%;
-    text-align: right;
+    text-align: center;
     font-size: 1.7rem;
-    color: rgb(238, 189, 83);
-    margin-bottom: 50px;
+    color: black;
+    margin-bottom: 10px;
   }

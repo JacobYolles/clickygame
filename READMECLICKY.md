@@ -1,3 +1,3 @@
 #clickygame
 
-Welcome to clicky game, with this app you will be able to play a memory match game, featuring some of my favorite tv shows that I've ever watched.
+Welcome to clicky game, with this app you will be able to play a memory match game, featuring some of my favorite tv shows that I've watched before. This is a simple memory match game, where you pick one result and click it, if it has already been clicked upon, you will lose the game. Because of this variable, the game has a maximum score of the total number of results possible, which for my application is 12 cards.
