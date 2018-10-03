@@ -12,7 +12,7 @@ const ShowCard = props => (
   <strong>Name:</strong> {props.title}
   </div>
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img alt={props.name} src={props.image} width="250px" height="200px" />
     </div>
   </div>
 );
