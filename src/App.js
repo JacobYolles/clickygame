@@ -25,7 +25,7 @@ class App extends Component {
 
   // create my apps state
   state = {
-    shows,
+    shows: shows,
     currentScore: 0,
     topScore: 0,
     correctIncorrect: "",
@@ -86,7 +86,6 @@ handleShuffle = () => {
 <Wrapper>
   <Nav
   title="React Show Clicky Game" 
-
   score={this.state.currentScore}
   topScore={this.state.topScore}
   correctIncorrect={this.state.correctIncorrect}
