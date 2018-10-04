@@ -8,9 +8,6 @@ import Column from "./Column";
 import Wrapper from "./components/Wrapper";
 import shows from "./shows.json";
 
-
-
-
 // Create my random shuffling of cards.
 function randomShows(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -70,7 +67,6 @@ handleReset = () => {
   });
   this.handleShuffle();
 };
-
 
 
 // Handle the shuffling of my random show cards.
