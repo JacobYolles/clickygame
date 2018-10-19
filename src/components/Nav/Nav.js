@@ -8,9 +8,9 @@ const Nav = props => (
         <a href="/clicky-game/">{props.title}</a>
       </li>
       <li id="rw" >{props.correctIncorrect}</li>
-    
+      {/* <li id="winningResponse" >{props.winningResponse} </li> */}
 
-      <li className="alignRight">Score - Top: {props.topScore} | Current: {props.score}</li>
+      <li className="alignRight">Score - Top: {props.topScore} | Current: {props.score} | Maximum: {props.maximumScore}</li>
 
     </ul>
   </nav>

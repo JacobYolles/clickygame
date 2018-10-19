@@ -25,7 +25,9 @@ class App extends Component {
     shows: shows,
     currentScore: 0,
     topScore: 0,
+    maximumScore: 12,
     correctIncorrect: "",
+    // winningResponse: "",
     clicked: [],
   };
 
@@ -44,23 +46,29 @@ handleClick = id => {
 // Handle the incrementation of score and of clicking upon icons.
 handleIncrement = () => {
   const newScore = this.state.currentScore + 1;
+  const finalScore = this.state.maximumScore;
   this.setState({
     currentScore: newScore,
-    correctIncorrect: "You guessed correctly!"
+    correctIncorrect: "You guessed correctly!",
+    winningResponse: "",
   });
   if (newScore >= this.state.topScore) {
     this.setState({ topScore: newScore });
   }
-  else if (newScore === 12) {
+  else if (newScore === finalScore) {
     this.setState({ correctIncorrect: "You win!" });
+    // this.setState({ winningResponse: "You win!" });
+    this.handleWin();
+ 
   }
-  this.handleShuffle();
+  // this.handleShuffle();
 };
 
 //Handle the reset of my random show cards positions.
 handleReset = () => {
   this.setState({
     currentScore: 0,
+    maximumScore: 12,
     topScore: this.state.topScore,
     correctIncorrect: "You guessed incorrectly!",
     clicked: []
@@ -68,6 +76,12 @@ handleReset = () => {
   this.handleShuffle();
 };
 
+handleWin = () => {
+  if (this.state.currentScore === 12) {
+    this.setState({ correctIncorrect: "You win!" });
+    this.setState({ winningResponse: "You Win!"})
+  }
+}
 
 // Handle the shuffling of my random show cards.
 handleShuffle = () => {
@@ -84,17 +98,23 @@ handleShuffle = () => {
   title="React Show Clicky Game" 
   score={this.state.currentScore}
   topScore={this.state.topScore}
+  maximumScore={this.state.maximumScore}
   correctIncorrect={this.state.correctIncorrect}
+  winningResponse={this.state.winningResponse}
   />
       <Title>
         Click on an image to earn a point, but don't click on any more than once!
-      </Title>
+        </Title>
+        <Title
+        handleWin= {this.handleWin}
+      />
       <Container>
         <Row>
           {this.state.shows.map(show => (
             <Column size="md-3 sm-6">
               <ShowCard
                 key = {show.id}
+                handleWin={this.handleWin}
                 handleClick={this.handleClick}
                 handleIncrement={this.handleIncrement}
                 handleReset={this.handleReset}
